@@ -5,9 +5,9 @@ import { ContextFirebaseAuthentication } from "../../Components/Context/ContextF
 import Navbar from "../../Components/NavBar/Navbar";
 export default function Treasure(){
   let {stateUserAuthMetaData} = useContext(ContextFirebaseAuthentication);
-  useEffect(()=>{
-    console.log(stateUserAuthMetaData)
-  }, [stateUserAuthMetaData]);
+  // useEffect(()=>{
+  //   console.log(stateUserAuthMetaData)
+  // }, [stateUserAuthMetaData]);
 
 
   return (

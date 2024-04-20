@@ -48,7 +48,7 @@ export default function SignUp(){
     .then((userCredential) => {
       // Signed up successfully
       const user = userCredential.user;
-      console.log('Successfully created new user:', user.uid);
+      // console.log('Successfully created new user:', user.uid);
       
       showSuccess(updateStateSuccessAndErrorMsg, "Successfully created Yours new account! Now unlocking treauser for you in 3 seconds!");
       setTimeout(()=>{
